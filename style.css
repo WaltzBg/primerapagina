@@ -1,0 +1,52 @@
+html{
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    margin: 0;
+    background-color:#efefef;
+}
+header{
+    background-color: #2C2C2C;
+    height: 100px;
+    padding: 2rem;
+}
+header img{
+    float: right;
+}
+#titulo{
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 0;
+    float: left;
+    color: #efefef;
+}
+img.img-thumbnail{
+    width: 200px;
+    height: 200px;
+}
+
+.col-md-4{
+    transition: box-shadow 0.3s ease;
+    border: solid 1px #2C2C2C;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.col-md-4:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+.nombre{
+    text-align: center;
+}
+footer{
+    background-color: #2C2C2C;
+    padding: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: #efefef;
+    font-size: 1rem;
+}
